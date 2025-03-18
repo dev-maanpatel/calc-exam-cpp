@@ -33,25 +33,39 @@ int main(){
         switch (choice)
         {
             case 1:
+            cout << "------------------------" << endl;
             cout << "Answer is : " << sum(a , b) << endl;
+            cout << "------------------------" << endl;
             break;
             case 2:
+            cout << "------------------------" << endl;
             cout << "Answer is : " << min(a , b) << endl;
+            cout << "------------------------" << endl;
             break;
             case 3:
+            cout << "------------------------" << endl;
             cout << "Answer is : " << mul(a , b) << endl;
+            cout << "------------------------" << endl;
             break;
             case 4:
+            cout << "------------------------" << endl;
             cout << "Answer is : " << divi(a , b) << endl;
+            cout << "------------------------" << endl;
             break;
             case 5:
+            cout << "------------------------" << endl;
             cout << "Answer is : " << modu(a , b) << endl;
+            cout << "------------------------" << endl;
             break;
             case 6:
+            cout << "------------------------" << endl;
             cout << "Thank you " << endl;
+            cout << "------------------------" << endl;
             break;
             case 7:
+            cout << "------------------------" << endl;
             cout << "Invalid choice " << endl;
+            cout << "------------------------" << endl;
             break; 
         }
     } while (choice);
