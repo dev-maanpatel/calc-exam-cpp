@@ -61,12 +61,7 @@ int main(){
             cout << "------------------------" << endl;
             cout << "Thank you " << endl;
             cout << "------------------------" << endl;
-            break;
-            case 7:
-            cout << "------------------------" << endl;
-            cout << "Invalid choice " << endl;
-            cout << "------------------------" << endl;
-            break; 
+            return 0; 
         }
     } while (choice);
     
